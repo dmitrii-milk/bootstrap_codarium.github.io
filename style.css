@@ -1,0 +1,136 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #a9a9a9;
+}
+
+.container {
+	margin: 0 auto;
+	background-color: #a9a9a9;
+	width: 803px;
+	height: auto;
+}
+
+header {
+	height: 174px;
+	width: 100%;
+	background-color: #54d454;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.logo {
+	position: absolute;
+	right: 5px;
+	top: 30px;
+}
+
+.name {
+	position: absolute;
+	top: 30px;
+	left: 195px;
+}
+
+.nav {
+	position: absolute;
+	top: 116px;
+	background-color: #29e929;
+	color: black;
+}
+
+.nav ul li {
+	color: black;
+}
+
+.content {
+	background-color: #54d454;
+	width: 100%;
+	height: 418px;
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 10px;
+
+}
+
+.left-text {
+	width: 480px;
+	height: 400px;
+	background-color: #29e929;
+	margin-top: 8px;
+	text-align: center;
+}
+
+.left-text h2 {
+ margin-top: 26px;
+	margin-bottom: 40px;
+	color: black;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 30px;
+}
+.left-text p {
+	text-align: justify;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.right-text {
+	margin-top: 8px;
+	width: 260px;
+	height: 400px;
+	background-color: #29e929;
+	text-align: center;
+}
+.right-text h1 {
+	color: black;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 35px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.right-text figure {
+	width: 126px;
+	height: 126px;
+	background-size: cover;
+	background-position: center;
+	display: inline-block;
+	float: left;
+}
+
+.photo1 {
+	background-image: url(https://images.unsplash.com/photo-1490718748265-11161b222038?ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80);
+}
+
+.photo2 {
+	background-image: url(https://images.unsplash.com/photo-1486122755742-3690fae5ad56?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=755&q=80);
+}
+.photo3 {
+	background-image: url(https://images.unsplash.com/photo-1580598152173-e5fab42e08a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=333&q=80);
+}
+.photo4 {
+	background-image: url(https://images.unsplash.com/photo-1514819121162-8f4345eb8fb7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjI0MX0&auto=format&fit=crop&w=1504&q=80);
+}
+
+.cont-photo {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.footer {
+	width: 100%;
+	height: 137px;
+	background-color: #54d454;
+}
+
+.footer p {
+	padding: 10px;
+}
+
+.copy {
+	padding: 10px;
+}
